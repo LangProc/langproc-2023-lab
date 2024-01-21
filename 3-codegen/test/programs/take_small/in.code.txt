@@ -1,0 +1,12 @@
+Seq [ 
+  Assign : i [ Input ]
+  While [ i
+    Seq [
+      If [ LessThan [ i 16 ]
+        Output [ i ]
+        10
+      ]
+      Assign : i [ Input ]
+    ]
+  ]
+]

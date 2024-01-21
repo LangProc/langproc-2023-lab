@@ -1,0 +1,12 @@
+Seq [
+  Assign : a [ Param : 0 ]
+  Assign : b [ Param : 1 ]
+  Assign : acc [ 0 ]
+  While [ b
+    Seq [
+      Assign : acc [ Add [ acc a ] ]
+      Assign : b [ Add [ b  -1 ] ]
+    ]
+  ]
+  acc
+]

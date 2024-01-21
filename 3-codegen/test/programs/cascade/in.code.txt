@@ -1,0 +1,17 @@
+Seq [
+  Assign : x [ 0 ]
+  Assign : y [ 1 ]
+  If [ Add [ x 1 ]
+    If [ y
+      Seq [
+        While [ x
+          Assign : x [ 1 ]
+        ]
+        Assign : x [ 2 ]
+      ]
+      4
+    ]
+    Assign : x [ 3 ]
+  ]
+  x
+]

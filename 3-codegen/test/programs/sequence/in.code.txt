@@ -1,0 +1,8 @@
+Seq [
+  Assign : x [ 10 ]
+  Assign : y [ 11 ]
+  Assign : z [ 10 ]
+  Assign : x [ Add [ x y ] ]
+  Assign : z [ Add [ x z ] ]
+  Output [ z ]
+]

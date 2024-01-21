@@ -1,0 +1,20 @@
+Seq [
+  Assign : x [ 0 ]
+  Assign : z [ 0 ]
+  
+  While [
+    LessThan [ z 4 ]
+    Seq [
+      Assign : i [ 0 ]
+      While [
+        LessThan [ i 5 ]
+        Seq [ 
+          Assign : x [ Add [ x z ] ]
+          Assign : i [ Add [ i 1 ] ]
+        ]
+      ]
+      Output [ x ]
+      Assign : z [ Add [ z 1 ] ]
+    ]
+  ]
+]

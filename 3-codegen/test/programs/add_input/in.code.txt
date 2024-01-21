@@ -1,0 +1,11 @@
+Seq [
+  Assign : a [ 0 ]
+  Assign : i [ Input ]
+  While [ i
+    Seq [
+      Assign : a [ Add [ a i ] ]
+      Assign : i [ Input ]
+    ]
+  ]
+  a
+]

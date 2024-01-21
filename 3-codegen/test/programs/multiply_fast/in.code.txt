@@ -1,0 +1,55 @@
+Seq [
+  Assign : a [ Param : 0 ]
+  Assign : b [ Param : 1 ]
+  Assign : acc [ 0 ]
+  Assign : b2 [ Add [ b  b ] ]
+  Assign : b4 [ Add [ b2  b2 ] ]
+  Assign : b8 [ Add [ b4  b4 ] ]
+  Assign : b16 [ Add [ b8  b8 ] ]
+  Assign : b32 [ Add [ b16  b16 ] ]
+  
+  If [ LessThan [ a  32 ]
+    0
+    Seq [
+      Assign : acc [ Add [ acc  b32 ] ]
+      Assign : a [ Sub [ a   32 ] ]
+    ]
+  ]
+  If [ LessThan [ a  16 ]
+    0
+    Seq [
+      Assign : acc [ Add [ acc  b16 ] ]
+      Assign : a [ Sub [ a   16 ] ]
+    ]
+  ]
+  If [ LessThan [ a  8 ]
+    0
+    Seq [
+      Assign : acc [ Add [ acc  b8 ] ]
+      Assign : a [ Sub [ a   8 ] ]
+    ]
+  ]
+  If [ LessThan [ a  4 ]
+    0
+    Seq [
+      Assign : acc [ Add [ acc  b4 ] ]
+      Assign : a [ Sub [ a   4 ] ]
+    ]
+  ]
+  If [ LessThan [ a  2 ]
+    0
+    Seq [
+      Assign : acc [ Add [ acc  b2 ] ]
+      Assign : a [ Sub [ a   2 ] ]
+    ]
+  ]
+  If [ LessThan [ a  1 ]
+    0
+    Seq [
+      Assign : acc [ Add [ acc  b ] ]
+      Assign : a [ Sub [ a   1 ] ]
+    ]
+  ]
+  Output [ acc ]
+  0
+]

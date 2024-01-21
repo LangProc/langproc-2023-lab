@@ -5,11 +5,11 @@ This repository contains the specifications for the three lab exercises for the 
 
 The three exercises are:
 
-1 - [Lexers and regular expressions](1-regexes) (due Tue 30 Jan at 23:59).
+1 - [Lexers and regular expressions](1-regexes) (due Tue 30 Jan 2024 at 23:59).
 
-2 - [Parsers and ASTs](2-parsers) (due Tue 13 Feb at 23:59).
+2 - [Parsers and ASTs](2-parsers) (due Tue 13 Feb 2024 at 23:59).
 
-3 - [Code Generation](3-codegen) (due Tue 27 Mar at 23:59).
+3 - [Code Generation](3-codegen) (due Tue 27 Mar 2024 at 23:59).
 
 The primary purpose of the lab exercises is to ensure that everyone learns the basic skills needed for the coursework. They are not designed to be too challenging, but they do require you to get to grips with several tools and concepts that you will need later.
 

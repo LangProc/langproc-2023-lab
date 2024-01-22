@@ -122,7 +122,7 @@ You will need to use a personal access token (PAT) to authenticate yourself. You
 Using your repository
 ---------------------
 
-You are free to include any files you wish in your repository, such as notes. However, try not check in compiled programs or large binary files. Repositories should contains the sources and instructions for binaries, but `git` does not deal well with binary files. Most repositories should contain a [.gitignore](https://git-scm.com/docs/gitignore) file, which gives patterns for files that should not be committed. There is [one included here](.gitignore) which covers a few things, but feel free to add other temporary and binary files that your system might produce.
+You are free to include any files you wish in your repository, such as notes. However, try not check in compiled programs or large binary files. Repositories should contains the sources and instructions for binaries, but `git` does not deal well with binary files. Most repositories should contain a [.gitignore](https://git-scm.com/docs/gitignore) file, which gives patterns for files that should not be committed. There is [one included here](2-parsers/.gitignore) which covers a few things, but feel free to add other temporary and binary files that your system might produce.
 
 You are encouraged to commit (and push) to your repository regularly. This is for two reasons:
 - If you lose your laptop, you only lose the work you have done since your last push.

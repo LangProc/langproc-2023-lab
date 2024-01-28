@@ -12,7 +12,7 @@ You will parse and build the AST for standard maths notation over double-precisi
 
 - Operators follow [standard mathematical precedence](https://en.wikipedia.org/wiki/Order_of_operations).
 
-- Operators follow [standard mathematical associativity](https://en.wikipedia.org/wiki/Operator_associativity).
+- Operators follow [standard mathematical associativity](https://en.wikipedia.org/wiki/Operator_associativity) (notably `-a^b=-(a^b)` and `a^-b=a^(-b)`)
 
 - Parentheses `(` and `)` can be used to override operator associativity and precedence.
 

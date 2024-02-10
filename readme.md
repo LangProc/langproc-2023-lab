@@ -7,9 +7,9 @@ The three exercises are:
 
 1 - [Lexers and regular expressions](1-regexes) (due Tue 30 Jan 2024 at 23:59).
 
-2 - [Parsers and ASTs](2-parsers) (due Tue 13 Feb 2024 at 23:59).
+2 - [Parsers and ASTs](2-parsers) (due Tue ~~13 Feb~~ **20 Feb** 2024 at 23:59). [Extended because I forgot about mid-term week.]
 
-3 - [Code Generation](3-codegen) (due Tue 27 Feb 2024 at 23:59).
+3 - [Code Generation](3-codegen) (due Tue ~~27 Feb~~ **5 Mar** 2024 at 23:59). [Extended because I forgot about mid-term week.]
 
 The primary purpose of the lab exercises is to ensure that everyone learns the basic skills needed for the coursework. They are not designed to be too challenging, but they do require you to get to grips with several tools and concepts that you will need later.
 
